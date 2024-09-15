@@ -54,9 +54,9 @@ With Exploratory Data Analysis; The data set's structural data were checked. The
 
 Data Preprocessing section; df for: The NaN values missing observations were filled with the median values of whether each variable was sick or not. The outliers were determined by LOF and dropped. The X variables were standardized with the rubost method..
 
-During Model Building; Logistic Regression, KNN, SVM, CART, Random Forests, XGBoost, LightGBM like using machine learning models Cross Validation Score were calculated. Later Random Forests, XGBoost, LightGBM hyperparameter optimizations optimized to increase Cross Validation value.
+During Model Building, Logistic Regression, Model Evaluation Methods Used, Accuracy Score, ROC AUC Curve, Prediction, Correlation, Cross Validation, Confusion Matrix
 
-Result; The model created as a result of XGBoost hyperparameter optimization became the model with the lowest Cross Validation Score value. (0.90)
+Result; The model created, In case of classifier like KNN the parameter to be tuned is n_neighbors and the Best Score:0.77 and Best Parameters :{'n_neighbors': 25}
 
 # Result 
-The model created as a result of XGBoost hyperparameter optimization became the model with the lowest Cross Validation Score value. (0.90)
+The model created as a result  In case of classifier like KNN the parameter to be tuned is n_neighbors and the Best Score:0.77 and Best Parameters :{'n_neighbors': 25}
